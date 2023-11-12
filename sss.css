@@ -1,0 +1,44 @@
+*
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #c20c0c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #86fe06;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Add this style to style.css */
+#countdown {
+    font-size: 18px;
+    color: #3498db;
+    margin-top: 10px;
+}
